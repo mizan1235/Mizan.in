@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#navber {
+    background-color: rgb(86, 75, 75);
+    border-radius: 20px;
+}
+
+#navber ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#navber li {
+    list-style: none;
+    size: 20px;
+    padding: 10px;
+
+}
+
+#navber li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: aqua;
+}
+
+
+
+#introsection {
+
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content: center;
+    align-items: center; */
+
+
+    font-size: 2rem;
+
+    /* height: 430px; */
+    /* background-color: yellow; */
+
+}
+
+.container {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 15%;
+
+}
+
+.class h3 {
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#introsection img {
+
+    height: 200px;
+    width: 150px;
+    left: 0px;
+    top: px;
+    margin: 10px;
+}
+
+#sportsection {
+    text-align: center;
+    height: 300px;
+    color: white;
+    padding-top: 12px;
+    font-size: 2rem;
+    background-color: rgb(32, 6, 6);
+
+}
+
+#navber a:hover {
+    color: red;
+
+
+}
+
+#footer {
+
+    color: rgb(161, 51, 51);
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 30px;
+    border-radius: 25px;
+}
