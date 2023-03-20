@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Style12.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navber">
+        <ul>
+            <li> <a href="https://github.com/mizan1235/MizaurProfile.github.io.git/index.html">Home</a></li>
+            <li> <a href="https://github.com/mizan1235/MizaurProfile.github.io.git/about.html">About</a></li>
+            <li> <a href="/">Srvice</a></li>
+            <li> <a href="https://github.com/mizan1235/MizaurProfile.github.io.git/contact.html">Contact Me</a></li>
+            <li> <a href="https://github.com/mizan1235/MizaurProfile.github.io.gits/login.html">Login</a></li>
+        </ul>
+    </div>
+    <!-- account page -->
+
+    >
+    <div class="form-container">
+        <div class="form-btn">
+            <span onclick="login()">Login</span>
+            <Span onclick="Reg()">Register</Span>
+            <hr id="Indicator">
+        </div>
+        <form id="loginForm">
+            <input type="text" placeholder="UserName">
+            <input type="password" placeholder="PassWord">
+            <button type="submit" class="btn">Login </button>
+            <a href="">Forgot Password</a>
+        </form>
+        <form id="registrationForm">
+            <form action="">
+                <input type="text" placeholder="UserName">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="PassWord">
+
+                <button type="submit" class="btn">Sign Up </button>
+
+            </form>
+        </form>
+    </div>
+
+
+    <section id="footer">
+        <script src="index.js"></script>
+    </section>
+    <script>
+        var loginForm = document.getElementById("loginForm");
+        var registrationForm = document.getElementById("registrationForm");
+        var Indicator = document.getElementById("Indicator");
+
+        function Reg() {
+            registrationForm.style.transform = "translateX(0px)";
+            loginForm.style.transform = "translateX(0px)";
+            Indicator.style.transform = "translateX(100px)";
+            // registrationForm.style.background = "aqua"
+
+        }
+        function login() {
+
+            registrationForm.style.transform = "translateX(300px)";
+            loginForm.style.transform = "translateX(300px)";
+            Indicator.style.transform = "translateX(-15px)";
+            // loginForm.style.background = "aqua"
+        }
+    </script>
+</body>
+
+</html>
